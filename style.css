@@ -1,5 +1,122 @@
-.googleimage
+.page-center /* to Center the googleimgae, searchbar and buttons */
 {
-margin: auto;
-display: block;
+ position: absolute;
+ margin-top: 90px;
+ margin-left: 400px;
 }
+.googleimage-position /*position of Google image within <div>*/
+{ 
+ position: relative;
+ padding-left: 138px ;
+}
+.searchbar-position /*position of serachbar within <div>*/
+{
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.searchbar-style /*serachbar style <div>*/
+{
+    border-color: rgb(182, 181, 181);
+    border-width: 1px;
+    border-radius: 25px;
+    width: 550px;
+    height: 45px;
+    background-image: url('search.png'); /*import small serach image withing search bar*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 8px;
+}
+.searchbar-style:hover /*hover styel of search bar*/
+{
+    cursor: pointer;
+    background-image: none;
+    border-color: rgb(124, 121, 121);
+    border-width: 1px;
+    border-radius: 25px;
+    width: 550px;
+    height: 45px;
+    background-position: center;
+    background-position-x: 8px;
+}
+.button-position /*button postiion*/
+{
+ position: relative;
+ padding-left: 140px ; 
+ padding-top: 18px;
+}
+.button-style /*button styel*/
+{
+ border-color: white;
+ border-width: 0px;
+ border-radius: 10px;
+ background-color: rgb(255, 255, 255);
+ width: auto;
+ height: 40px;
+}
+.button-style:hover /*button styel hover*/
+{ 
+ cursor: pointer;
+ background-color: rgb(255, 255, 255);
+ border-width: 1px;
+ border-color: gray;
+}
+ul /* To remove bullet points in front of unordered list*/
+{
+ list-style-type: none;
+ margin:0px;
+ padding:0px
+}
+li /*positioning of navigation bar at right*/
+{
+    float: right;
+    padding-right: 20px;;
+}
+li:hover /*styling the Li element*/
+{
+    text-decoration: underline;
+}
+.topbar-position /* Fixing the topbar position to extreme top right*/
+{
+    position: relative;
+    padding-top: 0px;
+    padding-right:0px; 
+}
+.topbar-position-text /* styling the text in navigation bar*/
+  {
+    position: relative;
+    padding-top: 5px;     
+}
+.topbar-style /*styeling the topbar*/
+{
+    color:rgb(44, 43, 43);
+    margin-top: 80px;
+    font-family: Arial;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;           
+ } 
+ .footer-text/*styeling the footer-text*/
+ {
+    color:rgb(44, 43, 43);
+    font-family: Arial;
+    font-size: 14px;
+    text-decoration: none;
+    padding-left: 13px;
+ }
+ .footer-text:hover/*hover styeling the footer-text*/
+ {
+     text-decoration: underline;
+ }
+ footer /*footer postion*/
+ {
+    position:fixed;
+    left: 0;
+    bottom: 12px;
+ }
+ .footer-right /*left footer postion*/
+ {
+    position:fixed;
+    right: 0;
+    bottom: 12px;
+ }
